@@ -269,6 +269,37 @@ footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
+.contact {
+  height: 100%;
+  padding-top: 30vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background-size: cover;
+}
+.contact__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  font-size: 1.5rem;
+}
+.contact__list h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.contact__list .text-secondary {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+.contact .social-icons {
+  display: initial;
+  position: inherit;
+  margin-top: 2rem;
+}
+
 body {
   background-color: #272727;
   color: #fff;
